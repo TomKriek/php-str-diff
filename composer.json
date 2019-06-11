@@ -1,0 +1,19 @@
+{
+    "name": "bdelespierre/php-str-diff",
+    "description": "Computes diff between two strings",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Delespierre",
+            "email": "benjamin.delespierre@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/lib.php"
+        ]
+    }
+    "minimum-stability": "dev",
+    "require": {}
+}
