@@ -33,8 +33,7 @@ array(4) {
   string(8) "Iron Man"
 }
 
-# See ANSI escape codes, colors section -> <https://en.wikipedia.org/wiki/ANSI_escape_code#Colors>
-
+# See ANSI escape codes, colors section reference down below
 echo colorize('<blue>'.$diff['common_start'] . '</blue>') . "\n\n";
 
 $colorized_diff = colorized_diff(
@@ -64,3 +63,5 @@ array(4) {
 }
 
 ```
+
+[ANSI escape codes for colors](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
