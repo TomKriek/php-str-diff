@@ -21,6 +21,8 @@
  * IN THE SOFTWARE.
  */
 
+namespace Bdelespierre\StrDiff;
+
 function str_diff(string $left, string $right): array
 {
     $from_start   = strspn($left ^ $right, "\0");
