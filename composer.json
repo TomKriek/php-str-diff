@@ -13,7 +13,7 @@
         "files": [
             "src/lib.php"
         ]
-    }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
